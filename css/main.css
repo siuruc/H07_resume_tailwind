@@ -903,7 +903,7 @@ body::-webkit-scrollbar {
 }
 
 #showcase {
-  background-image: url(./img/background.jpg);
+  background-image: url(../img/background.jpg);
 }
 
 /* Hamburger Menu */

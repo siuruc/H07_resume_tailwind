@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siu Ru Ching</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body class="bg-veryLight">
+    <!-- Navbar -->
+    <nav class="container mx-auto fixed top-0 right-0 left-0">
+      <!-- Menu Container -->
+      <div
+        class="flex items-center justify-between z-40 bg-dark p-3 px-8 mt-6 mx-6 rounded-lg"
+      >
+        <div class="flex space-x-5 items-end">
+          <a
+            href="#"
+            class="text-veryLight text-2xl hover:text-bright hover:duration-300 font-bold"
+            >Siu Ru
+            <span class="text-bright font-bold">Ching</span>
+          </a>
+          <a
+            href="https://github.com/siuruc"
+            class="text-veryLight hover:text-bright hover:duration-300"
+            target="_blank"
+            ><i class="fa-brands fa-github text-2xl"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/srching/"
+            class="text-veryLight hover:text-bright hover:duration-300"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin text-2xl"></i
+          ></a>
+        </div>
+
+        <!-- Menu Items -->
+        <div class="hidden space-x-6 md:flex">
+          <a
+            href="#project"
+            class="text-veryLight hover:text-bright hover:duration-300"
+            >Projects</a
+          >
+          <a
+            href="#skill"
+            class="text-veryLight hover:text-bright hover:duration-300"
+            >Skills</a
+          >
+          <a
+            href="#education"
+            class="text-veryLight hover:text-bright hover:duration-300"
+            >Education</a
+          >
+          <a
+            href="#experience"
+            class="text-veryLight hover:text-bright hover:duration-300"
+            >Experience</a
+          >
+          <a
+            href="#contact"
+            class="text-veryLight hover:text-bright hover:duration-300"
+            >Contact</a
+          >
+        </div>
+        <!-- Hamburger Icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+      <!-- Mobile Menu -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute hidden flex-col items-center self-end py-8 mt-3 space-y-6 font-bold bg-veryLight/90 rounded-lg sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a
+            href="#project"
+            class="text-dark hover:text-bright hover:duration-300"
+            >Projects</a
+          >
+          <a
+            href="#skill"
+            class="text-dark hover:text-bright hover:duration-300"
+            >Skills</a
+          >
+          <a
+            href="#education"
+            class="text-dark hover:text-bright hover:duration-300"
+            >Education</a
+          >
+          <a
+            href="#experience"
+            class="text-dark hover:text-bright hover:duration-300"
+            >Experience</a
+          >
+          <a
+            href="#contact"
+            class="text-dark hover:text-bright hover:duration-300"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- Showcase -->
+    <section id="showcase" class="h-screen bg-cover bg-center bg-no-repeat">
+      <div
+        class="container flex flex-col justify-end items-center h-screen mx-auto pb-32"
+      >
+        <h1 class="text-veryLight font-bold tracking-wider text-5xl">
+          Siu Ru <span class="text-bright">Ching</span>
+        </h1>
+        <h2 class="mt-4 text-light text-2xl">
+          Web Developer <span class="text-veryLight"> |</span> Programmer
+        </h2>
+      </div>
+      <div class="flex justify-end items-end px-3 pb-3 h-screen"></div>
+    </section>
+    <!-- Projects -->
+    <section id="project" class="">
+      <div
+        class="container flex-col items-center text-center mx-auto px-6 pb-20 pt-24"
+      >
+        <h2 class="text-bright text-5xl py-6 tracking-wide">Projects</h2>
+        <!-- Cards Container -->
+        <div
+          class="flex flex-col mt-24 md:flex-row md:grid md:grid-cols-2 md:gap-8 lg:grid-cols-3"
+        >
+          <!-- Resume Tailwind -->
+          <div
+            class="flex flex-col items-center p-6 rounded-lg bg-white mb-16 shadow-lg"
+          >
+            <img
+              src="./img/proj1.png"
+              class="w-full -mt-12 rounded-sm ring-1 ring-dark/50"
+              alt=""
+            />
+            <h5 class="text-xl pb-1 font-bold text-bright pt-5">Resume</h5>
+            <p class="text-sm text-dark">
+              Resume website created using
+              <span class="text-bright">Tailwind</span> CSS Framework
+            </p>
+            <div class="flex space-x-3 pt-5">
+              <a
+                href="#"
+                class="bg-dark rounded-md px-4 py-1 text-veryLight hover:text-bright duration-300 text-sm"
+                target="_blank"
+                ><i class="fa-solid fa-angle-right pr-2"></i>Visit Site</a
+              >
+
+              <a
+                href="#"
+                class="bg-dark rounded-md px-4 py-1 text-veryLight hover:text-bright duration-300 text-sm"
+                target="_blank"
+                ><i class="fa-brands fa-github pr-2"></i>View Code</a
+              >
+            </div>
+          </div>
+          <!-- Manage -->
+          <div
+            class="flex flex-col items-center p-6 rounded-lg bg-white mb-16 shadow-lg"
+          >
+            <img
+              src="./img/manage.png"
+              class="w-full -mt-12 rounded-sm ring-1 ring-dark/50"
+              alt=""
+            />
+            <h5 class="text-xl pb-1 font-bold text-bright pt-5">Manage</h5>
+            <p class="text-sm text-dark">
+              Landing page created using
+              <span class="text-bright">Tailwind</span> CSS Framework
+            </p>
+            <div class="flex space-x-3 pt-5">
+              <a
+                href="https://siuruc.github.io/H06_tailwind-landing-page/"
+                class="bg-dark rounded-md px-4 py-1 text-veryLight hover:text-bright duration-300 text-sm"
+                target="_blank"
+                ><i class="fa-solid fa-angle-right pr-2"></i>Visit Site</a
+              >
+
+              <a
+                href="https://github.com/siuruc/H06_tailwind-landing-page"
+                class="bg-dark rounded-md px-4 py-1 text-veryLight hover:text-bright duration-300 text-sm"
+                target="_blank"
+                ><i class="fa-brands fa-github pr-2"></i>View Code</a
+              >
+            </div>
+          </div>
+          <!-- Frontend bootcamp -->
+          <div
+            class="flex flex-col items-center p-6 rounded-lg bg-white mb-16 shadow-lg"
+          >
+            <img
+              src="./img/bootcamp.png"
+              class="w-full -mt-12 rounded-sm ring-1 ring-dark/50"
+              alt=""
+            />
+            <h5 class="text-xl pb-1 font-bold text-bright pt-5">
+              Frontend Bootcamp
+            </h5>
+            <p class="text-sm text-dark">
+              Frontend Bootcamp website created using
+              <span class="text-bright">Bootstrap</span> CSS framework
+            </p>
+            <div class="flex space-x-3 pt-5">
+              <a
+                href="https://siuruc.github.io/H05_bootstrap-bootcamp-website/"
+                class="bg-dark rounded-md px-4 py-1 text-veryLight hover:text-bright duration-300 text-sm"
+                target="_blank"
+                ><i class="fa-solid fa-angle-right pr-2"></i>Visit Site</a
+              >
+
+              <a
+                href="https://github.com/siuruc/H05_bootstrap-bootcamp-website"
+                class="bg-dark rounded-md px-4 py-1 text-veryLight hover:text-bright duration-300 text-sm"
+                target="_blank"
+                ><i class="fa-brands fa-github pr-2"></i>View Code</a
+              >
+            </div>
+          </div>
+          <!-- Resume 1 -->
+          <div
+            class="flex flex-col items-center p-6 rounded-lg bg-white mb-16 shadow-lg"
+          >
+            <img
+              src="./img/resume1.png"
+              class="w-full -mt-12 rounded-sm ring-1 ring-dark/50"
+              alt=""
+            />
+            <h5 class="text-xl pb-1 font-bold text-bright pt-5">Resume</h5>
+            <p class="text-sm text-dark">
+              Resume website styled with
+              <span class="text-bright">basic CSS</span>
+            </p>
+            <div class="flex space-x-3 pt-5">
+              <a
+                href="https://siuruc.github.io/H04_my-resume/"
+                class="bg-dark rounded-md px-4 py-1 text-veryLight hover:text-bright duration-300 text-sm"
+                target="_blank"
+                ><i class="fa-solid fa-angle-right pr-2"></i>Visit Site</a
+              >
+
+              <a
+                href="https://github.com/siuruc/H04_my-resume"
+                class="bg-dark rounded-md px-4 py-1 text-veryLight hover:text-bright duration-300 text-sm"
+                target="_blank"
+                ><i class="fa-brands fa-github pr-2"></i>View Code</a
+              >
+            </div>
+          </div>
+          <!-- Sass Portfolio -->
+          <div
+            class="flex flex-col items-center p-6 rounded-lg bg-white mb-16 shadow-lg"
+          >
+            <img
+              src="./img/portfolio.png"
+              class="w-full -mt-12 rounded-sm ring-1 ring-dark/50"
+              alt=""
+            />
+            <h5 class="text-xl pb-1 font-bold text-bright pt-5">
+              Portfolio Template
+            </h5>
+            <p class="text-sm text-dark">
+              Portfolio website template styled with
+              <span class="text-bright">Sass</span>
+            </p>
+            <div class="flex space-x-3 pt-5">
+              <a
+                href="https://siuruc.github.io/H03_sass-modern-portfolio/"
+                class="bg-dark rounded-md px-4 py-1 text-veryLight hover:text-bright duration-300 text-sm"
+                target="_blank"
+                ><i class="fa-solid fa-angle-right pr-2"></i>Visit Site</a
+              >
+
+              <a
+                href="https://github.com/siuruc/H03_sass-modern-portfolio"
+                class="bg-dark rounded-md px-4 py-1 text-veryLight hover:text-bright duration-300 text-sm"
+                target="_blank"
+                ><i class="fa-brands fa-github pr-2"></i>View Code</a
+              >
+            </div>
+          </div>
+          <!-- Loruki -->
+          <div
+            class="flex flex-col items-center p-6 rounded-lg bg-white mb-16 shadow-lg"
+          >
+            <img
+              src="./img/loruki.png"
+              class="w-full -mt-12 rounded-sm ring-1 ring-dark/50"
+              alt=""
+            />
+            <h5 class="text-xl pb-1 font-bold text-bright pt-5">Loruki</h5>
+            <p class="text-sm text-dark">
+              Cloud hosting website styled with
+              <span class="text-bright">basic CSS</span>
+            </p>
+            <div class="flex space-x-3 pt-5">
+              <a
+                href="https://siuruc.github.io/H02_css-loruki-website/"
+                class="bg-dark rounded-md px-4 py-1 text-veryLight hover:text-bright duration-300 text-sm"
+                target="_blank"
+                ><i class="fa-solid fa-angle-right pr-2"></i>Visit Site</a
+              >
+
+              <a
+                href="https://github.com/siuruc/H02_css-loruki-website"
+                class="bg-dark rounded-md px-4 py-1 text-veryLight hover:text-bright duration-300 text-sm"
+                target="_blank"
+                ><i class="fa-brands fa-github pr-2"></i>View Code</a
+              >
+            </div>
+          </div>
+
+          <!-- Calculator -->
+          <div
+            class="flex flex-col items-center p-6 rounded-lg bg-white mb-16 shadow-lg"
+          >
+            <img
+              src="./img/calc.png"
+              class="w-full -mt-12 rounded-sm ring-1 ring-dark/50"
+              alt=""
+            />
+            <h5 class="text-xl pb-1 font-bold text-bright pt-5">Calculator</h5>
+            <p class="text-sm text-dark">
+              Simple calculator with six operations on two input numbers written
+              in <span class="text-bright">JavaScript</span>
+            </p>
+            <div class="flex space-x-3 pt-5">
+              <a
+                href="https://siuruc.github.io/J03_simple-calculator/"
+                class="bg-dark rounded-md px-4 py-1 text-veryLight hover:text-bright duration-300 text-sm"
+                target="_blank"
+                ><i class="fa-solid fa-angle-right pr-2"></i>Visit Site</a
+              >
+
+              <a
+                href="https://github.com/siuruc/J03_simple-calculator"
+                class="bg-dark rounded-md px-4 py-1 text-veryLight hover:text-bright duration-300 text-sm"
+                target="_blank"
+                ><i class="fa-brands fa-github pr-2"></i>View Code</a
+              >
+            </div>
+          </div>
+          <!-- Tic-Tac-Toe -->
+          <div
+            class="flex flex-col items-center p-6 rounded-lg bg-white mb-16 shadow-lg"
+          >
+            <img
+              src="./img/tic-tac-toe.png"
+              class="w-full -mt-12 rounded-sm ring-1 ring-dark/50"
+              alt=""
+            />
+            <h5 class="text-xl pb-1 font-bold text-bright pt-5">Tic-Tac-Toe</h5>
+            <p class="text-sm text-dark">
+              Tic-tac-toe game in command line interface written in
+              <span class="text-bright">JavaScript</span>
+            </p>
+            <div class="flex space-x-3 pt-5">
+              <a
+                href="https://replit.com/@siuruc/tic-tac-toe"
+                class="bg-dark rounded-md px-4 py-1 text-veryLight hover:text-bright duration-300 text-sm"
+                target="_blank"
+                ><i class="fa-solid fa-angle-right pr-2"></i>Try It Out</a
+              >
+
+              <a
+                href="https://github.com/siuruc/J02_tic-tac-toe"
+                class="bg-dark rounded-md px-4 py-1 text-veryLight hover:text-bright duration-300 text-sm"
+                target="_blank"
+                ><i class="fa-brands fa-github pr-2"></i>View Code</a
+              >
+            </div>
+          </div>
+          <!-- Number Guessing Game -->
+          <div
+            class="flex flex-col items-center p-6 rounded-lg bg-white mb-16 shadow-lg"
+          >
+            <img
+              src="./img/guess-number.png"
+              class="w-full -mt-12 rounded-sm ring-1 ring-dark/50"
+              alt=""
+            />
+            <h5 class="text-xl pb-1 font-bold text-bright pt-5">
+              Guess The Number
+            </h5>
+            <p class="text-sm text-dark">
+              Number guessing game in command line interface written in
+              <span class="text-bright">JavaScript</span>
+            </p>
+            <div class="flex space-x-3 pt-5">
+              <a
+                href="https://replit.com/@siuruc/number-guessing-game"
+                class="bg-dark rounded-md px-4 py-1 text-veryLight hover:text-bright duration-300 text-sm"
+                target="_blank"
+                ><i class="fa-solid fa-angle-right pr-2"></i>Try It Out</a
+              >
+
+              <a
+                href="https://github.com/siuruc/J01_number-guessing-game"
+                class="bg-dark rounded-md px-4 py-1 text-veryLight hover:text-bright duration-300 text-sm"
+                target="_blank"
+                ><i class="fa-brands fa-github pr-2"></i>View Code</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section id="skill" class="bg-dark">
+      <div
+        class="container flex-col items-center text-center mx-auto px-6 pb-20 pt-24"
+      >
+        <h2 class="text-bright text-5xl py-6 tracking-wide">Skills</h2>
+      </div>
+    </section>
+    <!-- Education -->
+    <section id="education">
+      <div
+        class="container flex-col items-center text-center mx-auto px-6 pb-20 pt-24"
+      >
+        <h2 class="text-bright text-5xl py-6 tracking-wide">Education</h2>
+      </div>
+    </section>
+    <!-- Experience -->
+    <section id="experience" class="bg-dark">
+      <div
+        class="container flex-col items-center text-center mx-auto px-6 pb-20 pt-24"
+      >
+        <h2 class="text-bright text-5xl py-6 tracking-wide">Experience</h2>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+      <div
+        class="container flex-col items-center text-center mx-auto px-6 pb-20 pt-24"
+      >
+        <h2 class="text-bright text-5xl py-6 tracking-wide">Contact</h2>
+        <!-- Contact 1 -->
+        <div class="flex space-x-3 items-center justify-center py-3">
+          <a
+            href="https://www.linkedin.com/in/srching/"
+            class="text-dark hover:text-bright hover:duration-300"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin fa-2x"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/srching/"
+            class="text-dark hover:text-bright hover:duration-300"
+            target="_blank"
+            >linkedin.com/in/srching/</a
+          >
+        </div>
+
+        <!-- Contact 2 -->
+        <div class="flex space-x-3 items-center justify-center py-3">
+          <a
+            href="mailto:siuru.ching@gmail.com"
+            class="text-dark hover:text-bright hover:duration-300"
+            target="_blank"
+            ><i class="fa-solid fa-envelope fa-2x"></i
+          ></a>
+          <a
+            href="mailto:siuru.ching@gmail.com"
+            class="text-dark hover:text-bright hover:duration-300"
+            target="_blank"
+            >siuru.ching@gmail.com</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark">
+      <div class="container flex-row text-center py-5 mx-auto">
+        <p class="text-veryLight text-sm">&copy; 2022 Siu Ru Ching</p>
+        <p class="text-veryLight text-sm" style="font-size: 0.5rem">
+          Photo by
+          <a
+            href="https://unsplash.com/@willianjusten?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Willian Justen de Vasconcellos</a
+          >
+          on
+          <a
+            href="https://unsplash.com/s/photos/teal-background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Unsplash</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="./js/script.js"></script>
+</html>
